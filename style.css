@@ -117,3 +117,15 @@ table tbody tr:nth-child(even) {
   margin: 0;
   width: 178px;
 }
+
+.breadcrumb {
+	display: flex;
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+
+.breadcrumb li::not(:last-child):after {
+	content: ">";
+	padding: 0 5px;
+}
