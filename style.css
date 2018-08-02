@@ -125,7 +125,7 @@ table tbody tr:nth-child(even) {
 	padding: 0;
 }
 
-.breadcrumb li::not(:last-child):after {
+.breadcrumb li:not(:last-child)::after {
 	content: ">";
 	padding: 0 5px;
 }
